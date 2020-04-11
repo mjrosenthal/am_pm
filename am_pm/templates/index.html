@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>AM or PM homepage</title>
+{% endblock %}
+
+
+{% block body %}
+<h1>Is it AM or PM?</h1>
+<form method="POST">
+    <label id="get-am-pm-now">Get AM/PM for time now?</label>
+    <input type="submit" name="get-am-pm-now" id="get-am-pm-now" value="Get Now!">
+</form>
+{% endblock %}
